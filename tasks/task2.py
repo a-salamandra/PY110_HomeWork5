@@ -1,4 +1,5 @@
-def wave(text):
+def wave(text:str) -> None:
+
     text = list(text)
 
     for i in range(len(text)):
@@ -6,3 +7,4 @@ def wave(text):
             text[i] = text[i].upper()
             print("".join(text))
             text[i] = text[i].lower()
+

@@ -2,6 +2,7 @@ import tasks.task1 as task1
 import tasks.task2 as task2
 import tasks.task3 as task3
 import tasks.task4 as task4
+import tasks.task5 as task5
 
 if __name__ == '__main__':
 
@@ -17,4 +18,8 @@ if __name__ == '__main__':
     # for _ in range(10):
     #     print(next(task3gen))
 
-    print(task4.find_word("ygyu gygy goyg polp zzzq opoo"))
+    # print(task4.find_word("ygyu gygy goyg polp zzzq opoo"))
+
+    print (task5.task5("mouse"))
+    print (task5.task5("male"))
+    print (task5.task5("qwerty"))
