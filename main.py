@@ -1,9 +1,12 @@
+import json
+
 import tasks.task1 as task1
 import tasks.task2 as task2
 import tasks.task3 as task3
 import tasks.task4 as task4
 import tasks.task5 as task5
 from tasks import task6
+from tasks.task7 import generate_person, generate_people
 
 if __name__ == '__main__':
 
@@ -25,7 +28,10 @@ if __name__ == '__main__':
     # print (task5.task5("male"))
     # print (task5.task5("qwerty"))
 
-    print(task6.roman_to_int("MCMXC"))
-    print(task6.roman_to_int("MMVIII"))
-    print(task6.roman_to_int("MDCLXVI"))
+    # print(task6.roman_to_int("MCMXC"))
+    # print(task6.roman_to_int("MMVIII"))
+    # print(task6.roman_to_int("MDCLXVI"))
+
+    fake_people = json.dumps(generate_people(3),ensure_ascii=False,indent=4)
+    print(fake_people)
 
