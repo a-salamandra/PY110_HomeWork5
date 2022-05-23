@@ -6,7 +6,7 @@ import tasks.task3 as task3
 import tasks.task4 as task4
 import tasks.task5 as task5
 from tasks import task6
-from tasks.task7 import generate_person, generate_people
+from tasks.task7 import generate_people
 
 if __name__ == '__main__':
 
